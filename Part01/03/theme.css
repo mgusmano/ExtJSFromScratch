@@ -1,0 +1,30 @@
+.x-viewport {
+	margin: 0; border: 5px solid green;
+	width: 100%; height: 100%; right: 0; top: 0;
+	overflow: hidden;
+	position: absolute; box-sizing: border-box;
+}
+.x-grid {
+	font-family: Roboto, sans-serif;
+	font-weight: 400;font-size: 18px; width: 100%;
+}
+.gridTitle {
+	position: absolute;
+	top: 0;right: 0;bottom: 0;left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #2196f3; color: #FFFFFF;
+	height: 48px;
+}
+.blueTable {
+	margin-top: 48px;
+	border-collapse: collapse;
+	font-weight: 100;font-size: 14px; width: 100%;
+}
+.blueTable td, .blueTable th {
+	border: 1px solid #E6E6E6; padding: 10px;
+}
+.blueTable th { 
+	font-weight: 600;text-align: left; 
+}
