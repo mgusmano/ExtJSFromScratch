@@ -11,7 +11,6 @@ function create(item) {
 		var table = document.createElement("table");
 		table.setAttribute("class", "blueTable");
 		var header = table.createTHead();
-		//var header = document.getElementById("ext-table1").tHead;
 		var row = header.insertRow(0);   
 		for (i=0;i<item.columns.length;i++) {
 			th = document.createElement('th');
@@ -19,7 +18,6 @@ function create(item) {
 			row.appendChild(th);
 		}
 		var body = table.createTBody();
-		//var body = document.getElementById("ext-table1").tBodies[0];
 		for (var i=0;i<item.data.length;i++) {
 			var row = body.insertRow(i);
 			var o = {};
