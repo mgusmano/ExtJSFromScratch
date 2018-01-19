@@ -1,0 +1,15 @@
+
+//$nav-background-color: #094158;
+//$base-color: lighten($nav-background-color,25%);
+
+$nav-background-color: darken($base-color,25%);
+$nav-color: white;
+
+$header-background-color: $base-color;
+$header-color: white;
+
+$footer-background-color: $base-color;
+$footer-color: white;
+
+//$footer-background-color: green;
+//$footer-color: yellow;
